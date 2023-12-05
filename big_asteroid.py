@@ -7,9 +7,6 @@ class Big_Asteroid():
         self.hp = hp
 
     def move(self, y: int, x: int):
-        self.y += y
-        self.x += x
         pass
     def split(self):
-        ''' small_asteroid[] '''
         pass
