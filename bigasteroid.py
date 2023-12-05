@@ -1,5 +1,5 @@
-class Big_Asteroid():
-    def __int__(self, x: float, y: float, speed: float, split_probability: float, hp: int):
+class BigAsteroid:
+    def __init__(self, x: float, y: float, speed: float, split_probability: float, hp: int):
         self.x = x
         self.y = y
         self.speed = speed
