@@ -6,5 +6,7 @@ class Bullet:
     damage: int
     
     def move(x:float, y:float):
-    
-    
+        
+        
+        
+        
