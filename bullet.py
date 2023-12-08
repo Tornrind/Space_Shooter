@@ -5,6 +5,8 @@ class Bullet:
     speed: float
     damage: int
     
-    move(x:float, y:float):
-    
-    
+    def move(x:float, y:float):
+        
+        
+        
+        
