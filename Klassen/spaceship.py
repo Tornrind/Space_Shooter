@@ -4,5 +4,5 @@ class Spaceship:
     sprite: sprite
     speed: float
     
-    move(x:float, y:float):
-    shoot(): Bullet
+    def move(x:float, y:float):
+    def shoot(): Bullet
