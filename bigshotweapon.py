@@ -1,5 +1,3 @@
-class BigShotWeapon:
-    def __init__(self, reload_time: float):
-        self.reload_time = reload_time
-    def shoot(self, x:float, y:float):
+class BigShotWeapon(Weapon):
+    def __add__(self, reload_time):
         pass
