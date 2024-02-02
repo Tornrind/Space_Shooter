@@ -1,7 +1,7 @@
 class Spaceship:
     x: float
     y: float
-    sprite: sprite
+    sprite: Sprite
     speed: float
     
     def move(x:float, y:float):
