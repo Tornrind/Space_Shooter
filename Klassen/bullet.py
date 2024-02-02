@@ -1,12 +1,9 @@
 class Bullet:
     x: float
     y: float
-    sprite: Sprite
+    sprite: str
     speed: float
     damage: int
     
-    def move(x:float, y:float):
-        
-        
-        
-        
+    def move(self, x: float, y: float):
+        pass

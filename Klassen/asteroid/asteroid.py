@@ -1,10 +1,16 @@
+
 class Asteroid:
-    def __init__(self, x: float, y: float, speed: float, sprite: Sprite, split_probability: float, healthpoints: int):
+
+    def __init__(self, x: float, y: float, speed: float, sprite: str, hp: int):
         self.x = x
         self.y = y
-        self.sprite = Sprite
+        self.sprite = sprite
+        '''picture implemetation, maybe tkinter'''
         self.speed = speed
-        self.healthpoints = healthpoints
+        self.hp = hp
 
-        def move(self, y: int, x: int):
-            pass
+    def move(self, y: int, x: int):
+        self.x = x
+        self.y = y
+
+        pass
