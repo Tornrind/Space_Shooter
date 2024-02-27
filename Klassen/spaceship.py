@@ -1,8 +1,14 @@
 class Spaceship:
-    x: float
-    y: float
-    sprite: Sprite
-    speed: float
+    def __init__(self,x,y,speed,sprite):
+        self.x = x
+        self.y = y
+        self.speed = speed
+        self.sprite = sprite
+        self.Hitbox = None
+        self.Weapon = None
     
-    def move(x:float, y:float):
-    def shoot(): Bullet
+    def move(x, y):
+        pass
+
+    def shoot(self):
+        pass

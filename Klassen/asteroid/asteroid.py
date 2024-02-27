@@ -1,7 +1,7 @@
 
 class Asteroid:
 
-    def __init__(self, x: float, y: float, speed: float, sprite: str, hp: int):
+    def __init__(self, x, y, speed, sprite, hp):
         self.x = x
         self.y = y
         self.sprite = sprite
@@ -9,8 +9,7 @@ class Asteroid:
         self.speed = speed
         self.hp = hp
 
-    def move(self, y: int, x: int):
+    def move(self, y, x):
         self.x = x
         self.y = y
-
         pass

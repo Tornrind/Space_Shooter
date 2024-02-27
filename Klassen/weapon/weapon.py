@@ -1,5 +1,8 @@
 class Weapon:
-    def __init__(self, reload_time:float):
+    def __init__(self, reload_time):
         self.reload_time = reload_time
-    def shoot(self, x:float, y:float):
+
+    def create_bullet(self,bullet):
+        self.create_bullet(bullet)
+    def shoot(self, x, y):
         pass

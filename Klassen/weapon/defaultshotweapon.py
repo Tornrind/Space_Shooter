@@ -1,2 +1,3 @@
+
 class DefaultShotWeapon(Weapon):
         pass
